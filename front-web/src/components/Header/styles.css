@@ -24,3 +24,10 @@
       justify-content: center;
     }
   }
+
+  @media (max-width: 576px) {
+    .main-header {
+      justify-content: center;
+      width: 115%;
+    }
+  }

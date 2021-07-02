@@ -21,7 +21,7 @@ const Records = () => {
     const handlePageChange = (index: number) => {
         setActivePage(index);
     }
-
+ 
     return (
         <div className=""> 
             <Filters link="/charts" linkText="VER GRÁFICOS" /> 

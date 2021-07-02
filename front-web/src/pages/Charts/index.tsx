@@ -25,7 +25,7 @@ const initialPieData = {
     series: []
 }
 
-const Charts = () => {
+const Charts = () => { 
 
     const [barChartData, setBarChartData] = useState<BarChartData[]>([]);
     const [platformData, setPlatformData] = useState<PieChartData>(initialPieData);

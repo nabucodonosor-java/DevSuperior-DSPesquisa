@@ -51,7 +51,7 @@
   
   .charts {
     color: #FFF;
-    width: 400px;
+    width: 100%;
     margin-left: 10px;
   }
   
@@ -74,4 +74,25 @@
     height: 373px;
     background-color: var(--color-dimgray);
     border-radius: 10px;
+  }
+
+  @media (max-width: 576px) {
+    .chart-container {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .top-related {
+      width: 230%;
+      margin-bottom: 20px;
+    }
+
+    .charts {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .platform-chart {
+      margin-right: 5px;
+    }
   }
