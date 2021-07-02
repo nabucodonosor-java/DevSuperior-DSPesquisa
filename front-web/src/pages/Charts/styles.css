@@ -1,11 +1,16 @@
+.page-chart-container {
+  width: 100%;
+  padding-bottom: 20px;
+}
 .chart-container {
     display: flex;
+    padding: 0 10px;
   }
   
   .top-related {
     background-color: var(--color-dimgray);
     padding-top: 30px;
-    padding-left: 70px;
+    padding-left: 30px;
     border-radius: 10px;
     flex: 1;
   }
@@ -47,7 +52,7 @@
   .charts {
     color: #FFF;
     width: 400px;
-    margin-left: 30px;
+    margin-left: 10px;
   }
   
   .chart-title {
@@ -58,7 +63,7 @@
     padding-top: 15px;
     padding-left: 25px;
     height: 373px;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     background-color: var(--color-dimgray);
     border-radius: 10px;
   }

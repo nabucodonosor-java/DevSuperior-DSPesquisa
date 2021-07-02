@@ -1,9 +1,6 @@
 .page-container {
     width: 80%;
-    margin: 0 auto;
-    margin-bottom: 50px;
-    padding-top: 50px;
-  }
+}
   
   .filters-container.records-actions {
     justify-content: flex-end;
@@ -13,6 +10,7 @@
     width: 100%;
     border-bottom: 10px solid var(--color-turquoise);
     border-radius: 0 0 10px 10px;
+    padding: 0 10px;
   }
   
   .records-table thead {
@@ -58,8 +56,8 @@
     display: flex;
     justify-content: space-between;
     padding: 13px 15px;
-    margin-bottom: 25px;
     border-radius: 10px;
+    margin: 20px 10px;
   }
   
   .filters-container input {

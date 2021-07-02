@@ -23,7 +23,7 @@ const Records = () => {
     }
 
     return (
-        <div className="page-container"> 
+        <div className=""> 
             <Filters link="/charts" linkText="VER GRÁFICOS" /> 
             <table className="records-table" cellPadding="0" cellSpacing="0">
                 <thead>
